@@ -21,21 +21,24 @@
 
 <p float="left" align="center">
 
-<img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/WhatsApp Image 2023-09-25 at 21.52.55 (1)_google-pixel4-clearlywhite-portrait.png"/>
-  <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171334_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-  <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171357_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-  <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-   <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-    <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-     <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-      <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-       <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-        <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-         <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-          <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
-           <img alt="screenshot" width="30%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/Screenshot_20230701-171529_RightDose_google-pixel4-ohsoorange-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.55%20(1)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.55%20(2)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.55_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56%20(1)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56%20(2)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56%20(3)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56%20(4)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57%20(1)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57%20(2)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57%20(3)_google-pixel4-clearlywhite-portrait.png"/>
+<img alt="screenshot" width="30%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57_google-pixel4-clearlywhite-portrait.png"/>
 
-  
+
+
+
+
+
 
 
 </p>

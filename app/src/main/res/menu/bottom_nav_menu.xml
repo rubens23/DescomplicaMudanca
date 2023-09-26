@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigationHome"
+        android:icon="@drawable/home"
+        android:title="" />
+
+    <item
+        android:id="@+id/addDespesaGasto"
+        android:icon="@drawable/addbtn"
+        android:title=""
+        app:itemIconSize="48dp"/>
+
+    <item
+        android:id="@+id/navigationOrganizacaoMudanca"
+        android:icon="@drawable/piggy"
+        android:title="" />
+
+</menu>

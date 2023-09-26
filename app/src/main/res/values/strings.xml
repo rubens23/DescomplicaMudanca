@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app ajuda mudanca</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel justo ac neque ornare vulputate. Integer tristique consectetur urna, a tincidunt quam ullamcorper non. Sed vitae commodo ex. In hac habitasse platea dictumst. Integer euismod purus a mauris ullamcorper, ut ullamcorper risus ullamcorper. Curabitur dapibus, velit vitae consequat euismod, justo orci facilisis mauris, eu hendrerit quam sapien vitae nisi. Integer vel laoreet metus. Vestibulum non ultricies lacus. Aliquam erat volutpat. Etiam non dui justo. Vestibulum tristique dui vel enim pellentesque tincidunt.
+</string>
+</resources>

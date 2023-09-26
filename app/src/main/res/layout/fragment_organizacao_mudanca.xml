@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.FragmentOrganizacaoMudanca"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:id="@+id/tv_label_organizacao_mudanca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:scaleX="0.9"
+        android:scaleY="1.4"
+        android:text="Organização mudança"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lighter_black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"
+        tools:listitem="@layout/item_categoria"
+        android:id="@+id/rv_organizacao_mudanca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_organizacao_mudanca"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_divisoria"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        app:cardBackgroundColor="@color/bit_darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/rv_organizacao_mudanca"
+        android:layout_marginHorizontal="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

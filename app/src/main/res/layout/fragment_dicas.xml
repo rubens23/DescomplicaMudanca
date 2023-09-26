@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_gray"
+    tools:context=".ui.FragmentDicas">
+
+    <TextView
+        android:id="@+id/tv_label_title_metas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:scaleX="0.9"
+        android:scaleY="1.4"
+        android:text="Dicas"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lighter_black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_divisoria"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/bit_darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/tv_label_title_metas"
+        android:layout_marginHorizontal="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dicas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv_divisoria"
+        tools:listitem="@layout/item_dica"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

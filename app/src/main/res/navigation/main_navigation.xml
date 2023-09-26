@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation.xml"
+    app:startDestination="@id/navigationHome">
+
+    <fragment
+        android:id="@+id/navigationHome"
+        android:name="com.rubens.appajudamudanca.ui.FragmentHomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentDetalhesDespesas"
+            app:destination="@id/fragmentDetalhesDespesas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetalhesDespesas"
+        android:name="com.rubens.appajudamudanca.ui.FragmentDetalhesDespesas"
+        android:label="fragment_detalhes_despesas"
+        tools:layout="@layout/fragment_detalhes_despesas" />
+    <fragment
+        android:id="@+id/navigationOrganizacaoMudanca"
+        android:name="com.rubens.appajudamudanca.ui.FragmentOrganizacaoMudanca"
+        android:label="fragment_organizacao_mudanca"
+        tools:layout="@layout/fragment_organizacao_mudanca" >
+        <action
+            android:id="@+id/action_navigationOrganizacaoMudanca_to_fragmentEstabelecerOrcamento"
+            app:destination="@id/fragmentEstabelecerOrcamento" />
+        <action
+            android:id="@+id/action_navigationOrganizacaoMudanca_to_fragmentEconomias"
+            app:destination="@id/fragmentEconomias" />
+        <action
+            android:id="@+id/action_navigationOrganizacaoMudanca_to_fragmentMetas"
+            app:destination="@id/fragmentMetas" />
+        <action
+            android:id="@+id/action_navigationOrganizacaoMudanca_to_fragmentDicas"
+            app:destination="@id/fragmentDicas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEstabelecerOrcamento"
+        android:name="com.rubens.appajudamudanca.ui.FragmentEstabelecerOrcamento"
+        android:label="fragment_estabelecer_orcamento"
+        tools:layout="@layout/fragment_estabelecer_orcamento" />
+    <fragment
+        android:id="@+id/fragmentEconomias"
+        android:name="com.rubens.appajudamudanca.ui.FragmentEconomias"
+        android:label="fragment_economias"
+        tools:layout="@layout/fragment_economias" />
+    <fragment
+        android:id="@+id/fragmentMetas"
+        android:name="com.rubens.appajudamudanca.ui.FragmentMetas"
+        android:label="fragment_metas"
+        tools:layout="@layout/fragment_metas" />
+    <fragment
+        android:id="@+id/fragmentDicas"
+        android:name="com.rubens.appajudamudanca.ui.FragmentDicas"
+        android:label="fragment_dicas"
+        tools:layout="@layout/fragment_dicas" >
+
+        <action
+            android:id="@+id/action_fragmentDicas_to_fragmentDetalheDica2"
+            app:destination="@id/fragmentDetalheDica" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetalheDica"
+        android:name="com.rubens.appajudamudanca.ui.FragmentDetalheDica"
+        android:label="fragment_fragment_detalhe_dica"
+        tools:layout="@layout/fragment_fragment_detalhe_dica">
+
+        <argument
+            android:name="dica"
+            app:argType="com.rubens.appajudamudanca.data.models.Dica"/>
+    </fragment>
+</navigation>

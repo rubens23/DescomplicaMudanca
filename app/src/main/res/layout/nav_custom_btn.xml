@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/nav_button_border"
+        android:src="@drawable/add"/>
+</FrameLayout>

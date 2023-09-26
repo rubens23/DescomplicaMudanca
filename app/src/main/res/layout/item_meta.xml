@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_gray">
+
+    <TextView
+        android:id="@+id/tv_label_nome_meta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:scaleX="0.9"
+        android:scaleY="1.4"
+        tools:text="Fundo de emergência"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/lighter_black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingStart="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/et_qnt_total_meta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_qnt_total_meta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingStart="16dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_border"
+        app:layout_constraintTop_toTopOf="@id/tv_label_nome_meta"
+        app:layout_constraintBottom_toBottomOf="@id/tv_label_nome_meta"
+        app:layout_constraintStart_toEndOf="@id/tv_label_nome_meta"
+        app:layout_constraintEnd_toStartOf="@id/tv_total_meta"/>
+
+    <TextView
+        android:id="@+id/tv_total_meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.9"
+        android:scaleY="1.4"
+        tools:text="R$ 3000"
+        android:textColor="@color/lighter_black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintStart_toEndOf="@id/et_qnt_total_meta"
+        app:layout_constraintTop_toTopOf="@id/et_qnt_total_meta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/et_qnt_total_meta"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -64,8 +64,45 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
 **DescomplicaMudanca** utiliza a arquitetura [MVVM]
 (https://developer.android.com/topic/architecture).
 </br></br>
-<img width="60%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/arquitetura.jpg">
+<img width="60%" src="app/src/main/appscreenshots/arquitetura.jpg"/>
+
 <br>
+
+## Principais Funcionalidades
+
+### Controle ganhos e despesas no mês
+<img alt="screenshot" width="40%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.56%20(3)_google-pixel4-clearlywhite-portrait.png"/>
+
+### Estabeleça custos necessários para mudança
+<img alt="screenshot" width="40%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57%20(1)_google-pixel4-clearlywhite-portrait.png"/>
+
+### acompanhe quanto você já conseguiu economizar
+<img alt="screenshot" width="40%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.57_google-pixel4-clearlywhite-portrait.png"/>
+
+### veja dicas para te ajudar a planejar melhor a mudança
+<img alt="screenshot" width="40%" src="app/src/main/appscreenshots/WhatsApp%20Image%202023-09-25%20at%2021.52.55%20(1)_google-pixel4-clearlywhite-portrait.png"/>
+
+
+# Licença
+
+
+
+```xml
+    Copyright [2023] [Rubens Francisco de Assis]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+```
 
 
 

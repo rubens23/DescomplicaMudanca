@@ -64,7 +64,7 @@ Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Vo
 **DescomplicaMudanca** utiliza a arquitetura [MVVM]
 (https://developer.android.com/topic/architecture).
 </br></br>
-<img width="60%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/arquiteturadosecerta.png">
+<img width="60%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/arquitetura.jpg">
 <br>
 
 

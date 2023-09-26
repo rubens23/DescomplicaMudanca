@@ -43,6 +43,30 @@
 
 Faça o download da <a href="apk/app-debug.apk?raw=true">APK diretamente</a>. Você pode ver <a href="https://www.google.com/search?q=como+instalar+um+apk+no+android">aqui</a> como instalar uma APK no seu aparelho android.
 
+## Tecnologias usadas
+
+- Minimum SDK level 26
+- [Linguagem Kotlin](https://kotlinlang.org/)
+
+- Componentes da SDK do android que foram utilizados:
+  - Navigation: Utilizado para simplificar a navegação das telas no meu app.
+  - Room: Utilizado para persistir os dados localmente no device do usuário.
+  - Dagger Hilt: Utilizado para facilitar a injeção de dependências nas minhas classes.
+  - ViewModel: Utilizado para fornecer um pouco de desacoplamento entre a camada de dados e a view. Também foi utilizada para fazer a comunicação entre activity-fragment ou fragment-fragment.
+  - Fragment: Os fragments foram utilizados para fornecer uma organização melhor para as telas do meu app. Além de funcionar muito bem com o NavigationComponent.
+  - SharedFlow: utilizado para ficar de olho em metodos assincronos e coletar esses dados para a camada de view.
+  - ViewBinding: Fornece uma maneira simples de referenciar os elementos da view nas classes que precisam manipular de alguma forma esses elementos.
+ 
+- Arquitetura 
+  - Eu estou usando a arquitetura MVVM para organizar melhor o código, aumentar o desacoplamento e facilitar a escalabilidade da aplicação.
+ 
+## Arquitetura
+**DescomplicaMudanca** utiliza a arquitetura [MVVM]
+(https://developer.android.com/topic/architecture).
+</br></br>
+<img width="60%" src="https://github.com/rubens23/App-Lembrete-Medicamento/raw/main/app/src/main/appscreenshots/arquiteturadosecerta.png">
+<br>
+
 
 
 

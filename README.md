@@ -13,7 +13,7 @@
 
 ⭐ Esse é um projeto para demonstrar minha capacidade no desenvolvimento Android nativo com Kotlin. Mais informações técnicas abaixo.
 
-🏠 DescomplicaMudança é o seu guia essencial para uma transição suave e organizada para o novo lar dos seus sonhos. Com recursos que permitem controlar despesas e receitas mensais, definir metas específicas para cada custo da mudança, e oferecer dicas especializadas de planejamento, o aplicativo coloca você no comando total do planejamento da sua mudança. Acompanhe o progresso, veja quanto já economizou e transforme a mudança em uma jornada tranquila e memorável.
+🏠 DescomplicaMudança é um app essencial para uma transição suave e organizada para o novo lar dos seus sonhos. Com recursos que permitem controlar despesas e receitas mensais, definir metas específicas para cada custo da mudança, e oferecer dicas especializadas de planejamento, o aplicativo coloca você no comando total do planejamento da sua mudança. Acompanhe o progresso, veja quanto já economizou e transforme a mudança em uma jornada tranquila e memorável.
 
 </p>
 
